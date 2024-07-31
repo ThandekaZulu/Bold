@@ -123,8 +123,9 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:background="@drawable/background_dark_grey"
+        android:background="@drawable/background_btn"
         android:text="Next"
+        android:textAllCaps="false"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -176,21 +177,21 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
 
         <ImageView
-            android:id="@+id/imageView16"
+            android:id="@+id/imageViewFour"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:src="@drawable/avatar_four" />
 
         <ImageView
-            android:id="@+id/imageView17"
+            android:id="@+id/imageViewFive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:src="@drawable/avatar_five" />
 
         <ImageView
-            android:id="@+id/imageView18"
+            android:id="@+id/imageViewSix"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"

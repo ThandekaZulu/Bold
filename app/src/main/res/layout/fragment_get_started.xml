@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
+    android:background="@color/white"
     android:orientation="vertical"
     tools:context="com.view.FragmentGetStarted">
 
@@ -12,6 +13,7 @@
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
         android:layout_height="456dp"
+        android:background="@drawable/get_started"
         android:src="@drawable/get_started"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -76,9 +78,10 @@
         android:id="@+id/buttonGetStarted"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="40dp"
         android:background="@drawable/background_btn"
         android:text="@string/button_get_start"
+        android:textAllCaps="false"
         android:textColor="@color/white"
         android:textColorLink="@color/dark_green"
         android:textStyle="bold"

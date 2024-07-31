@@ -125,6 +125,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/background_btn"
         android:text="Complete"
+        android:textAllCaps="false"
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
         app:layout_constraintEnd_toEndOf="parent"

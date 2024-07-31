@@ -36,5 +36,47 @@
         android:id="@+id/fragmentCompleteOnboarding"
         android:name="com.view.FragmentCompleteOnboarding"
         android:label="fragment_complete_onboarding"
-        tools:layout="@layout/fragment_complete_onboarding" />
+        tools:layout="@layout/fragment_complete_onboarding" >
+        <action
+            android:id="@+id/action_fragmentCompleteOnboarding_to_fragmentDashboard"
+            app:destination="@id/fragmentDashboard" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentDashboard"
+        android:name="com.view.FragmentDashboard"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_fragmentDashboard_to_fragmentPaperOneLanguage"
+            app:destination="@id/fragmentPaperOneLanguage" />
+        <action
+            android:id="@+id/action_fragmentDashboard_to_fragmentPaperTwoReading"
+            app:destination="@id/fragmentPaperTwoReading" />
+        <action
+            android:id="@+id/action_fragmentDashboard_to_fragmentPaperThreeWriting"
+            app:destination="@id/fragmentPaperThreeWriting" />
+        <action
+            android:id="@+id/action_fragmentDashboard_to_fragmentPaperFourOralsAndListening"
+            app:destination="@id/fragmentPaperFourOralsAndListening" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentPaperOneLanguage"
+        android:name="com.view.FragmentPaperOneLanguage"
+        android:label="fragment_paper_one_language"
+        tools:layout="@layout/fragment_paper_one_language" />
+    <fragment
+        android:id="@+id/fragmentPaperTwoReading"
+        android:name="com.view.FragmentPaperTwoReading"
+        android:label="fragment_paper_two_reading"
+        tools:layout="@layout/fragment_paper_two_reading" />
+    <fragment
+        android:id="@+id/fragmentPaperThreeWriting"
+        android:name="com.view.FragmentPaperThreeWriting"
+        android:label="fragment_paper_three_writing"
+        tools:layout="@layout/fragment_paper_three_writing" />
+    <fragment
+        android:id="@+id/fragmentPaperFourOralsAndListening"
+        android:name="com.view.FragmentPaperFourOralsAndListening"
+        android:label="fragment_paper_four_orals_and_listening"
+        tools:layout="@layout/fragment_paper_four_orals_and_listening" />
 </navigation>
